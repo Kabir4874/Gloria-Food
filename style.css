@@ -496,3 +496,55 @@ Responsive Code Start
         padding: 35% 1% 75% 1%;
     }
 }
+
+/*! =======================================
+Food-Ordering Code Start
+=======================================*/
+.header{
+    padding: 10% 16% 0 16%;
+    text-align: center;
+    position: relative;
+}
+.header h1{
+    color: var(--big-font-color);
+    font-size: 44px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.header h2{
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 300;
+    color: var(--small-font-color);
+    position: relative;
+}
+.header span{
+    width: 60px;
+    height: 2px;
+    background-color: var(--main-color);
+    position: absolute;
+    bottom: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.lm-btn{
+    padding: 10px 40px 10px 20px;
+    font-size: 16px;
+    border-radius: 50px;
+    outline: 1px solid rgba(0, 0, 0, 0.2);
+    border: none;
+    background-color: white;
+    color: var(--small-font-color);
+    position: relative;
+    cursor: pointer;
+    transition: .4s;
+}
+.lm-btn i{
+    font-size: 20px;
+    margin-left: 5px;
+    position: absolute;
+    top: 30%;
+}
+.lm-btn:hover{
+    outline: 1px solid rgba(0, 0, 0, 0.8);
+}
