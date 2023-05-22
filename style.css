@@ -451,6 +451,11 @@ Responsive Code Start
         justify-content: center;
     }
 }
+@media(max-width:520px){
+    header{
+        padding: 35% 1% 45% 1%;
+    }
+}
 @media(max-width:420px){
     header{
         padding: 45% 1% 55% 1%;
@@ -476,12 +481,17 @@ Responsive Code Start
 }
 @media(max-width:320px){
     header{
-        padding: 55% 1% 85% 1%;
+        padding: 35% 1% 65% 1%;
     }
     .grid{
         grid-template-columns: repeat(auto-fit, minmax(200px, auto));
     }
     .h2-text{
         font-size: 30px;
+    }
+}
+@media(max-width:260px){
+    header{
+        padding: 35% 1% 75% 1%;
     }
 }
