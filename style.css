@@ -70,12 +70,12 @@ header{
     background-position: center;
     background-size: cover;
     width: 100%;
-    /* height: 80vh; */
     position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 15% 16%;
+    transition: width .5s;
 }
 .header-text{
     text-align: center;
@@ -290,6 +290,7 @@ Reusable Code Start
     grid-template-columns: repeat(auto-fit, minmax(300px, auto));
     gap: 60px;
     align-items: center;
+    transition: width .5s;
 }
 
 .grid-img{
