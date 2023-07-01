@@ -548,3 +548,13 @@ Food-Ordering Code Start
 .lm-btn:hover{
     outline: 1px solid rgba(0, 0, 0, 0.8);
 }
+
+
+/*! Restaurant Services */
+
+.c-list li{
+    margin-bottom: 20px;
+}
+.c-list li img{
+    margin-right: 10px;
+}
